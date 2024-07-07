@@ -1,31 +1,66 @@
 body {
   margin: 0;
+  padding: 10px;
   box-sizing: border-box;
-  background-color: aqua;
+  background-color: rgb(26, 19, 26);
   text-align: center;
-  padding: 20%;
   font-family: sans-serif 
 }
 
 h1 {
   font-weight: bold;
   color: white;
-  font-size: 40px;
-  width: 400px
+  font-size: 35px;
+  margin: auto;
+  padding: 40px;
 }
 
 .palindrome {
   background-color: white;
-  width: 400px;
-  height: 150px;
+  width: 380px;
+  height: 130px;
   padding: 20px;
-  border-radius: 20px
+  border-radius: 20px;
+  margin: 0 auto;
+  box-shadow: 5px 5px 10px rgba(184, 173, 181, 0.1);
 }
 
 p {
-  font-size: 14px
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 20px;
 }
 
 input {
-  padding: px
+  padding: 4px 30px;
+  border: none;
+  border-bottom: 2px solid;
+}
+
+button {
+    margin-left: 5px;
+    font-size: 14px;
+    padding: 7px 20px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    background-color: rgb(20, 20, 46);
+}
+
+#result {
+    font-size: 20px;
+    padding: 20px;
+}
+
+#info {
+    padding: 20px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    margin: 50px auto;
+    width: 350px;
+}
+
+#info p {
+    font-size: 20px;
 }
