@@ -64,3 +64,27 @@ button {
 #info p {
     font-size: 20px;
 }
+
+@media only screen and (max-width: 450px) {
+  .palindrome {
+    width: 300px;
+  }
+
+  button {
+    margin-top: 20px;
+  }
+
+  #info {
+    width: 300px;
+  }
+} 
+
+@media only screen and (max-width: 370px) {
+  .palindrome {
+    width: 250px;
+  }
+  
+  #info {
+    width: 250px;
+  }
+}
